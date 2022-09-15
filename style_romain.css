@@ -3,4 +3,64 @@
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #f07d00;
+    box-shadow: 0px 8px 10px grey;
+}
+
+nav {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav img {
+    width: 25px;
+}
+
+.titre {
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre img {
+    width: 400px;
+}
+
+.nom {
+    margin-left: -30px;
+}
+
+.nom h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+.nom h2 {
+    text-transform: uppercase;
+    font-size: 100px;
+    color: #f07d00;
+    margin-left: 70px;
 }
