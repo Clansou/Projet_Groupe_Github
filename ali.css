@@ -45,14 +45,19 @@ nav img {
 div{
     padding-top: 50px;
     text-align: center;
-    width: 50%;
-    margin: 2% 25%;
+    width: 70%;
+    margin: 2% 15%;
+}
+.logo{
+    width: 75%;
+    height: auto;
 }
 .Intro{
-    font-size: xx-large;
+    font-size: 50px;
     align-items: center;
     display: flex;
-    
+    text-align: center;
+    justify-content: space-between;
 }
 h1{
     margin: 0 20px;
@@ -62,13 +67,15 @@ h1{
     height: 300px;
     border-end-start-radius: 50%;
     border-top-right-radius: 50%;
+    
 }
 h3{
-    font-size: xx-large;
-    margin-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 50px;
 }
 p{
-    font-size: large;
+    font-size: 20px;
+    font-style: italic;
 }
 .carte{
     width: 100%;
