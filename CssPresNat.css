@@ -74,6 +74,19 @@ h2{
     margin-right: 50px;
     text-align: center;
 }
-#txtpres{
-    display: inline;
+
+.divPresPassion{
+    display: flex;
+    align-items: center;
+}
+
+#txtPassion{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#gifF1{
+    margin-right: 50px;
+    border: solid 5px #f07d00;
 }
