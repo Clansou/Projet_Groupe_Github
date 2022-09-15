@@ -43,9 +43,20 @@ nav img {
     width: 25px;
 }
 
+.hidden_item_1, .hidden_item_2 {
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: 1s;
+}
+
+.reveal_item_1, .reveal_item_2{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .titre {
     width: 1200px;
-    margin: 100px auto 0;
+    margin: 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
