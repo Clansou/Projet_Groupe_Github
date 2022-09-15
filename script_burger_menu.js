@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let btn = document.querySelector('.burger_menu')
 let menu = document.querySelector('.menu')
