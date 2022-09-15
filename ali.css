@@ -46,8 +46,9 @@ div{
 .Intro{
     font-size: xx-large;
     align-items: center;
+    
 }
-img{
+.photo{
     width: auto;
     height: 300px;
 }
