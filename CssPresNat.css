@@ -42,12 +42,14 @@ body{
     color: #f07d00;
 }
 
-h1{
+h2{
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 50%;
     transform: translate(-50%);
     text-align: center;
+    font-size: 100px;
+    box-shadow: 10px 10px 30px grey;
 }
 
 #imgNat{
@@ -66,4 +68,12 @@ h1{
     margin-top: 100px;
     margin-right: 50px;
     text-align: center;
+}
+#txtPresNat2{
+    margin-top: 300px;
+    margin-right: 50px;
+    text-align: center;
+}
+#txtpres{
+    display: inline;
 }
