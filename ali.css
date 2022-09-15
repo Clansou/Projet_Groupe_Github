@@ -46,7 +46,11 @@ div{
 .Intro{
     font-size: xx-large;
     align-items: center;
+    display: flex;
     
+}
+h1{
+    margin: 0 20px;
 }
 .photo{
     width: auto;
@@ -54,7 +58,8 @@ div{
 }
 h3{
     font-size: xx-large;
+    margin-bottom: 10px;
 }
 p{
-    font-size: x-large;
+    font-size: large;
 }
