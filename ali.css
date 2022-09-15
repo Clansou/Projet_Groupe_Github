@@ -70,3 +70,9 @@ h3{
 p{
     font-size: large;
 }
+.carte{
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    border-radius: 50%;
+}
