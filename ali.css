@@ -4,8 +4,13 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
-
+body{
+    background-image: url(img/arrière_plan_ali.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 header {
     display: flex;
     justify-content: center;
@@ -41,7 +46,7 @@ div{
     padding-top: 50px;
     text-align: center;
     width: 50%;
-    margin: 0% 25%;
+    margin: 2% 25%;
 }
 .Intro{
     font-size: xx-large;
@@ -55,6 +60,8 @@ h1{
 .photo{
     width: auto;
     height: 300px;
+    border-end-start-radius: 50%;
+    border-top-right-radius: 50%;
 }
 h3{
     font-size: xx-large;
