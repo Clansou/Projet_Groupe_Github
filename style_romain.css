@@ -15,19 +15,25 @@ header {
 }
 
 nav {
-    width: 1000px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav a {
+nav .menu a {
     color: white;
     font-size: 18px;
     transition: 0.5s;
 }
 
-nav a:hover {
+nav .menu {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .menu a:hover {
     color: black;
     font-weight: bold;
     transition: 0.5s;
@@ -98,4 +104,165 @@ hr {
 .titre_section hr {
     width: 300px;
     margin: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    hr {
+        width: 1000px;
+    }
+
+    .categorie {
+        width: 1000px;
+    }
+
+    .titre {
+        width: 1000px;
+    }
+
+    nav {
+        width: 1000px;
+    }
+
+    .menu {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 1035px) {
+    .titre img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    hr {
+        width: 800px;
+    }
+
+    .titre {
+        width: 800px;
+    }
+
+    .categorie {
+        width: 800px;
+    }
+
+    .titre_section h3 {
+        font-size: 30px;
+    }
+
+    .nom {
+        margin-left: -20px;
+    }
+
+    .nom h1 {
+        font-size: 50px;
+    }
+
+    .nom h2 {
+        font-size: 50px;
+    }
+
+    nav {
+        width: 800px;
+    }
+
+    .menu {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    hr {
+        width: 600px;
+    }
+
+    .titre {
+        width: 600px;
+    }
+
+    .categorie {
+        width: 600px;
+    }
+
+    nav {
+        padding: 0px 20px;
+    }
+
+    nav img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .burger_menu {
+        background-color: #f07d00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 40px;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .burger_menu img {
+        width: 40px;
+        display: block;
+    }
+
+    nav .burger_menu:hover {
+        cursor: pointer;
+    }
+
+    nav .hidden_menu {
+        top: -200px;
+        left: 0;
+        opacity: 0;
+    }
+
+    nav .menu {
+        z-index: 1;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background-color: #f07d00;
+        z-index: 1;
+        opacity: 0.8;
+        height: 200px;
+        padding: 25px;
+        width: 700px;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.5s;
+    }
+
+    nav .shown_menu {
+        z-index: 0;
+        top: 70px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 600px;
+    }
+
+    nav .menu {
+        width: 600px;
+    }
+
+    .titre {
+        width: 600px;
+    }
 }
