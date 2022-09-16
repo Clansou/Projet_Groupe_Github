@@ -258,7 +258,7 @@ hr {
     }
 
     nav .shown_menu {
-        z-index: 0;
+        z-index: 1;
         top: 70px;
         left: 0;
     }
