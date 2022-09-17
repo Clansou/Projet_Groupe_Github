@@ -7,9 +7,7 @@
     color: white;
 }
 body{
-    background-image: url(img/arrière_plan_ali.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(9, 9, 9);
 }
 header {
     display: flex;
@@ -41,8 +39,13 @@ nav a:hover {
 nav img {
     width: 25px;
 }
-
+section{
+    padding: 10% 5%;
+}
 div{
+    border-radius: 10%;
+}
+.résumé{
     padding-top: 50px;
     text-align: center;
     width: 70%;
@@ -53,20 +56,21 @@ div{
     height: auto;
 }
 .Intro{
-    font-size: 50px;
+    font-size: 40px;
     align-items: center;
     display: flex;
     text-align: center;
     justify-content: space-between;
+    flex-direction: row-reverse;
 }
 h1{
     margin: 0 20px;
 }
 .photo{
-    width: auto;
-    height: 300px;
+    width: 50%;
+    height: auto;
     border-end-start-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
     
 }
 h3{
@@ -78,8 +82,19 @@ p{
     font-style: italic;
 }
 .carte{
-    width: 100%;
+    width: 500px;
     height: auto;
     margin: 20px 0px;
-    border-radius: 50%;
+    border-radius: 30%;
+}
+.box{
+    background-color: rgb(6, 6, 6);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+p{
+    padding: 50px 0px;
 }
