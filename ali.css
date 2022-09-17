@@ -63,7 +63,9 @@ div{
     justify-content: space-between;
     flex-direction: row-reverse;
 }
-
+.alias{
+    padding: 20px 0px;
+}
 .photo{
     width: 50%;
     height: auto;
@@ -71,18 +73,22 @@ div{
     border-top-left-radius: 50%;
     
 }
+
 h3{
     font-size: 50px;
     margin-bottom: 50px;
+    padding: 0 25px;
 }
 p{
     font-size: 25px;
     font-style: italic;
+    padding: 50px 0px;
 }
 .carte{
     width: 500px;
     height: auto;
     margin: 20px 0px;
+    padding: 0 25px;
     border-radius: 30%;
 }
 .box{
@@ -93,6 +99,29 @@ p{
     flex-direction: row-reverse;
     justify-content: space-around;
 }
-p{
-    padding: 50px 0px;
+
+@media screen and (max-width: 1200px) {
+    p{
+        font-size: 20px;
+        padding: 60px 0px;
+    }
+    section{
+        padding: 10% 5%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .box{
+        flex-direction: column;
+    }
+    p{
+        padding: 70px 0px;
+    }
+}
+@media screen and (max-width: 800px){
+    .Intro{
+        flex-direction: column;
+    }
+    section{
+        padding: 10% 2%;
+    }
 }
