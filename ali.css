@@ -40,7 +40,7 @@ nav img {
     width: 25px;
 }
 section{
-    padding: 10% 5%;
+    padding: 10% 10%;
 }
 div{
     border-radius: 10%;
@@ -56,16 +56,14 @@ div{
     height: auto;
 }
 .Intro{
-    font-size: 40px;
+    font-size: 50px;
     align-items: center;
     display: flex;
     text-align: center;
     justify-content: space-between;
     flex-direction: row-reverse;
 }
-h1{
-    margin: 0 20px;
-}
+
 .photo{
     width: 50%;
     height: auto;
@@ -74,11 +72,11 @@ h1{
     
 }
 h3{
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 50px;
 }
 p{
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
 }
 .carte{
