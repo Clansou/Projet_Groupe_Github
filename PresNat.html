@@ -10,11 +10,16 @@
 <body>
     <header>
         <nav>
-            <img src="images/logo_DeVinci_W.png" alt="">
-            <a href="#">Romain PARISOT</a>
-            <a href="#">Nathan LEFETEY</a>
-            <a href="#">Clément SOUPLET</a>
-            <a href="#">Ali ABBAS</a>
+            <div class="burger_menu">
+                <img src="images/logo_DeVinci_W.png" alt="">
+            </div>
+            
+            <div class="menu hidden_menu">
+                <a href="romain.html">Romain PARISOT</a>
+                <a href="PresNat.html">Nathan LEFETEY</a>
+                <a href="ali.html">Clément SOUPLET</a>
+                <a href="PresClement.html">Ali ABBAS</a>
+            </div>
             <img src="images/logo_DeVinci_W.png" alt="">
         </nav>
     </header>
@@ -45,12 +50,16 @@
                 <h2>Le Projet de Nathan</h2>
             </div>
             <div class="divPresProjet">
-                <div>
-
+                <img id="argent" src="argent.jpg" alt="image d'argent">
+                <div id="txtpres">
+                    <p id="txtPresNat1" >Nathan a pour projet de faire beaucoup d'argent, pour ce faire l'un de ses projets est de se former pour pouvoir investir et devenir riche. </p>
                 </div>
-
+            </div>
+            <div>
+                <p id="merci" >Merci d'avoir lu</p>
             </div>
         </div>
     </div>
 </body>
+<script src="script_burger_menu.js"></script>
 </html>
