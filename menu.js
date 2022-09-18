@@ -17,6 +17,5 @@ if (btn != null ) {
     btn.addEventListener("click", toggleMenu)
 
     console.log(btn)
-
     
 }
