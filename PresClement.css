@@ -177,3 +177,177 @@ hr {
 p{
     padding: 20px 0px;
 }
+
+
+
+
+@media screen and (max-width: 1200px) {
+    hr {
+        width: 1000px;
+    }
+
+    .categorie {
+        width: 1000px;
+    }
+
+    .titre {
+        width: 1000px;
+    }
+
+    nav {
+        width: 1000px;
+    }
+
+    .menu {
+        width: 800px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+
+    hr {
+        width: 700px;
+    }
+
+    .titre {
+        width: 100%;
+    }
+
+    .categorie {
+        width: 800px;
+    }
+
+    .titre h3 {
+        font-size: 50px;
+    }
+
+    .box{
+        flex-direction: column;
+    }
+    p{
+        padding: 70px 0px;
+
+    }
+
+
+    nav {
+        width: 800px;
+    }
+
+    .menu {
+        width: 800px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    hr {
+        width: 600px;
+    }
+
+    .titre {
+        width: 350px;
+    }
+
+    .categorie {
+        width: 800px;
+    }
+
+    nav {
+        padding: 0px 20px;
+    }
+
+    nav img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .burger_menu {
+        background-color: #f07d00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 40px;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .burger_menu img {
+        width: 40px;
+        display: block;
+    }
+
+    nav .burger_menu:hover {
+        cursor: pointer;
+    }
+
+    nav .hidden_menu {
+        top: -200px;
+        left: 0;
+        opacity: 0;
+    }
+
+    nav .menu {
+        z-index: 1;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background-color: #f07d00;
+        z-index: 1;
+        opacity: 0.9;
+        height: 200px;
+        padding: 25px;
+        width: 700px;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.5s;
+    }
+
+    nav .shown_menu {
+        top: 70px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 600px;
+    }
+
+    nav .menu {
+        width: 700px;
+    }
+
+        .main {
+        width: 132%;
+    }
+
+    .titre {
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+
+        .main {
+        width: 272%;
+    }
+
+    .titre {
+        width: 420px;
+    }
+}
