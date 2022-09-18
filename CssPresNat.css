@@ -122,15 +122,44 @@ h2{
 }
 
 @media  screen and (max-width: 800px) {
-    body{
-        background-color: red;
+    h2{
+        font-size: 50px;
     }
-    h2{font-size: 50px; }
-    #merci{font-size: 30px;}
-
+    #merci{
+        font-size: 30px;
+    }
+    .divPresNat{
+        display: block;
+    }
+    .divPresProjet{
+        display: block;
+    }
+    .divPresPassion{
+        display: block;
+    }
+    #gifF1{
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+    #imgNat{
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+    #argent{
+        margin-left: 50%;
+        transform: translate(-50%);
+        width: 500px;
+        height: 300px;
+    }
+    #txtPassion{
+        margin-bottom: 100px;
+    }
+    #txtPresNat2{
+        margin-top: 100px;
+    }
 }
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1200px) and (min-width:801px) {
     h2{font-size: 70px; }
     #merci{font-size: 50px;}
 }
