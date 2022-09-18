@@ -112,3 +112,68 @@ section {
     font-size: 1.7em;
     padding-right: 30px;
 }  
+
+
+
+hr {
+    width: 100%;
+    margin: 100px auto;
+    height: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f07d00;
+}
+
+.categorie {
+    width: 100%;
+    margin: 0 auto 100px;
+}
+
+.categorie p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; 
+    font-size: 50px; 
+    color: white;  
+}
+
+
+.titre hr {
+    width: 400px;
+    margin: 15px;
+}
+
+
+.carte{
+    width: 500px;
+    height: auto;
+    margin: 40px 0px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 30px rgb(0, 0, 211);
+}
+.box{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.carte2{
+    width: 400px;
+    height: auto;
+    margin: 40px 0px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 30px rgb(185, 185, 255);
+}
+
+p{
+    padding: 20px 0px;
+}
